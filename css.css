@@ -1,0 +1,81 @@
+/*======================*/
+/*---------reset--------*/
+/*======================*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,from,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{
+font-size:1em;
+font-family:Arial;
+box-sizing:border-box;
+box-sizing:-moz-border-box; /* Firefox */
+box-sizing:-webkit-border-box; /* Safari */
+}
+li{list-style:none;}
+input,select,textarea{outline:none;border:none;background:none;}
+textarea{resize:none;}
+a{text-decoration:none; color:#3F3F3F;}
+
+/*======================*/
+/*----------clear---------*/
+/*======================*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+
+/*======================*/
+/*---------preset-------*/
+/*======================*/
+/*导航*/
+header{
+	width: 100%;
+	height: 70px;
+	background: #1E99D4;
+}
+header nav{
+	max-width:1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+input{
+	display: none;
+}
+.tetle{
+/*	width: 14%;*/
+	color: #fff;
+	font-size: 35px;
+	line-height: 70px;
+	margin:0 5%;
+	font-weight: bold;
+	display: inline-block;
+}
+.botton{
+	width: 4%;
+	display: none;
+	line-height: 70px;
+	margin-right: 3%;
+}
+#nav:checked ~ p{
+	color: #548;
+}
+nav{
+	position: relative;
+}
+nav ul{
+	width: 40%;
+	margin-right: 0px;
+}
+nav ul li{
+	text-align: center;
+	margin: 0 1%;
+	line-height: 70px;
+	
+}
+nav ul a{
+	font-weight: bold;
+	padding: 10px 10px;
+	background: #fff;
+	border-radius: 3px;
+}
+@media screen and (max-width:857px){
+	
+}
